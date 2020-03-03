@@ -1,11 +1,11 @@
 # Site settings
 author: Adam Priest
-title: 
+title: My Flatiron Journey
 header-img: img/home-bg.png
 email: sepone229@gmail.com
 copyright_name: Adam Priest
 description: > # this means to ignore newlines until "baseurl:"
-  
+  Flatiron Journey
 baseurl: "" # the subpath of your site, e.g. /blog
 twitter_username: 
 github_username:  loadcode229
