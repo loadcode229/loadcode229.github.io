@@ -1,13 +1,13 @@
 ---
 layout: post
 title:      "My TopBreweries CLI Project problem solving."
-date:       2020-05-02 02:30:11 +0000
+date:       2020-05-01 22:30:11 -0400
 permalink:  my_topbreweries_cli_project_problem_solving
 ---
 
 
 So, during these last two and a half long, LONG weeks I finally finished my project. Not without the complex problems, empty coffee pots, early mornings and late nights, etc.
-My main objective was to scrape this website([https://www.thrillist.com/drink/nation/the-best-craft-brewery-in-every-state-in-america/]) and return all **brewery_names**, **brewery_links**, **city**, **states**, and **descriptions**. Most were pretty straight forward like the **brewery_links/brewery_names/states** however, during the first project week someone decided it was a prime time to update their website and things got MESSED UP.
+My main objective was to scrape a website and return all **brewery_names**, **brewery_links**, **city**, **states**, and **descriptions**. Most were pretty straight forward like the **brewery_links/brewery_names/states** however, during the first project week someone decided it was a prime time to update their website and things got MESSED UP.
 Most of the **city** were in an <em> tag but a handful were just inside the <p> tag along with the **description**. 
 And the **description** contained **brewery_names** and cities as well as contained extra `\n` and `"--"` within the description. The `\n` was making new lines between **brewery_name** and **city** and the `"--"` seperated certain sentences in certain **descriptions** and all **descriptions** had initials at the end of each **description**. 
 So, you might be wondering? How did you solve this problem? I wasn't alone. I had the help of some students in my cohort but ultimately relied on my teacher, Micah to help me scrape the necessary data needed to then use in my CLI. 
